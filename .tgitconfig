@@ -1,0 +1,14 @@
+[user]
+	password = pacher654123
+	name = jacksonpacher
+	email = jackson_pacher@hotmail.com
+	signingkey = pacher654123
+[core]
+	editor = emacs
+	quotepath = true
+	autocrlf = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
